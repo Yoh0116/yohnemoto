@@ -1,0 +1,31 @@
+header{
+    position:absolute;
+    top:0;
+    left:0;
+    height:10%;
+    width:100%;
+    background-color: black;
+}
+
+.logo{
+    color:white;
+    font-size: 40px;
+    font-family: cursive;
+    margin-left: 50px;
+    line-height: 60px;
+}
+
+.menubar{
+    position:absolute;
+    top:0;
+    right:0;
+    color:white;
+    list-style: none;
+    font-size: 30px;
+    line-height:10px;
+}
+
+.menu{
+    float:left;
+    margin-right: 50px;
+}
