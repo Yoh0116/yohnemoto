@@ -25,7 +25,11 @@ header{
     line-height:10px;
 }
 
-.menu{
+li{
     float:left;
     margin-right: 50px;
+}
+
+.child{
+    display:none;
 }
