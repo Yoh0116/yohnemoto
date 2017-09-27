@@ -1,5 +1,6 @@
-function Demo01(){
-    $(this).next().slideToggle(300);
-}
-
-$(".toggle").click(Demo01);
+$(function(){
+    $(".accordion p").click(function(){
+        $(this).next("ul").slideToggle();
+        $(this).toggleClass("open");
+    });
+});
